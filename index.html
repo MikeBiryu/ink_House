@@ -1,28 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/ink_House/css/style.css" />
     <title>House</title>
-
+  </head>
+  <body>
     <header class="header">
-      <div class="wrapper">
+      <div class="wrapper header__wrapper">
         <div class="header__logo">
-          <a href="" class="logo"></a>
+          <a class="logo"><img src="./img/logo.svg" alt="Логотип Ink Ho" /></a>
         </div>
-        <div class="header__nav">
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">Репродукции</li>
-              <li class="nav__item">Новинки</li>
-              <li class="nav__item">О нас</li>
-            </ul>
-          </nav>
+        <div class="header__right">
+          <div class="header__nav">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="" class="nav__link">Репродукции</a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">Новинки</a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">О нас</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <a href="" class="card" aria-label="переход в корзину">
+            <div class="card__icon"></div>
+          </a>
         </div>
-        <a href="" class="card" aria-label="переход в корзину"></a>
       </div>
     </header>
-  </head>
-  <body></body>
+    <main>
+      <section class="first">
+        <div class="wrapper first__section">
+          <picture class="first__img">
+            <img src="./img/bird.png" alt="bird" />
+          </picture>
+          <div class="first__content">
+            <h1 class="first__title">
+              Реплики картин от&nbsp;
+              <span>Ink. House</span>
+            </h1>
+            <p class="first__desription">
+              Высокое качество отрисовки на плотной бумаге или льняном холсте.
+              Редкие произведения, доступные цены.
+            </p>
+            <a href="#" class="btn btn--stroke first__link">Продукция</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

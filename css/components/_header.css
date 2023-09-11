@@ -1,3 +1,32 @@
-h1 {
-  color: rgb(81, 0, 255);
+.header {
+  padding: 30px 0;
+  background-color: var(--header-color);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__nav {
+  margin-right: 60px;
+  font-size: 20px;
+  color: var(--header-font);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+.nav__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.card__icon {
+  width: 22px;
+  height: 22px;
+  background-image: url(../../img/shopping-cart.svg);
 }
