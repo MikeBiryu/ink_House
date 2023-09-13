@@ -1,3 +1,7 @@
+.catalog {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
 .catalog__top {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,38 @@
+.about {
+  padding: 70px 0;
+}
+.wrapper__about {
+  display: flex;
+  justify-content: center;
+}
+
+.about__img {
+  min-width: 445px;
+  min-height: 440px;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 30px 40px 30px;
+}
+
+.about__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+.about__descr {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.about__teams {
+  display: flex;
+  align-items: center;
+}
+.about__teams:not(:last-child) {
+  margin-right: 30px;
+}
