@@ -11,6 +11,7 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 44px;
+  padding-left: 10px;
 }
 .catalog-tabs {
   display: flex;
